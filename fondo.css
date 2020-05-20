@@ -136,7 +136,7 @@ h1{
 }
 
 h1 strong{
-  color: #180AD0;
+  color: #026fff;
 }
 .portfolio{
   background: #fafafa;
@@ -151,6 +151,33 @@ h2{
   font-family: 'Source Sans Pro',  sans-serif;
   font-weight: bold;
   background-color: #fafafa;
+}
+h4{
+  text-align: left;
+  font-style:normal;
+  font-size: 1.5em;
+  font-family: 'Source Sans Pro',  sans-serif;
+  font-weight:normal;
+  border: 1px solid #5F6368;
+  border-radius: 5px;
+  padding: 5px 10px;
+  /* border-color:linear-gradient(to bottom right, blue, white); */
+  /* background-color: : #fff; */
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+h4 a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+.my-self{
+  background: #fafafa;
+  padding: 10px;
+  padding-bottom: 3px;
 }
 
 .project{
@@ -432,10 +459,16 @@ h2{
     font-size: 1.5em;
     margin:0 .5em;
   }
-
+  h4{
+    font-size: 1em;
+    margin: .5em;
+  }
 }
-
 @media screen and (max-width:480px){
+  h4{
+    font-size: .8em;
+    margin: .4em;
+  }
   .hero{
     height: auto;
   }
@@ -475,6 +508,10 @@ h2{
   }
 }
 @media screen and (max-width:320px){
+  h4{
+    font-size: .5em;
+    margin: .3em;
+  }
   h1{
     font-size: 1.1em;
   }
@@ -485,7 +522,33 @@ h2{
     font-size: .5em;
   }
   h2{
-    font-size: 1em;
+    font-size: .8em;
     margin:0 .2em;
+  }
+  .project-details{
+    width: auto;
+    font-size: 8px;
+  }
+  .event-detail{
+    margin:-2em .5em. 5em;
+    padding: .8em;
+    font-size: .8em;
+  }
+  .project-course, .project-date, .project-url{
+    font-size: .8em;
+    margin: .4em 0;
+  }
+  h3{
+    font-size: .9em;
+  }
+  .footer{
+    padding: .5em;
+    font-size: .8em;
+  }
+  .footer p {
+    margin: 0:
+  }
+  .contact h3{
+    margin: .5em;
   }
 }

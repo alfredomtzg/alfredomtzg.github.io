@@ -194,9 +194,16 @@ h4 a {
 .project-date,
 .project-url{
   margin: 10px 0;
+  text-decoration: none;
+  cursor: pointer;
 }
+.project-url a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .project-description{
-  font-size: 30px;
+  font-size: 1em;
 }
 .project strong{
   font-family: 'Fjalla One', Times, serif;
@@ -208,14 +215,32 @@ h4 a {
   font-size: 20px;
   margin:0;
 }
+.project-button a {
+  text-decoration: none;
+  /* margin: 2px; */
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0 .5em;
+  color: inherit;
+  background: rgba(0, 0, 100,.2);
+  transition: .5s;
+  font-size: .8em;
+}
+.project-button a:hover {
+  color: white;
+  background: rgba(0, 0, 100,.7);
+}
+
 .project-imageContainer{
   width: 50%;
+  height: 80%;
   margin:0;
   text-align: center;
   /* height: 50%; */
 }
 .project-imageContainer img{
   max-width: 100%;
+  max-height: 100%;
 }
 .expertiz{
   background: #fafafa;
@@ -452,6 +477,9 @@ h4 a {
   }
   .project-course, .project-date, .project-url{
     margin: .4em 0;
+  }
+  .project-button {
+    text-align: center;
   }
   .event{
     width: 100%;

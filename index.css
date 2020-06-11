@@ -121,10 +121,7 @@ h6{
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.hero-image{
-  object-fit: cover;
-  width: 50%;
-}
+
 
 h1{
   font-size: 40px;
@@ -443,9 +440,9 @@ h4 a {
 .menu.is-active{
   left:0;
 }
-  iframe{
-    width: inherit;
-    height: 15em;
+  .project-imageContaine image{
+    width: 100%;
+    height: auto;
   }
 
   .project{

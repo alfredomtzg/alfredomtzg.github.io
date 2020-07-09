@@ -291,7 +291,7 @@ h4 a {
   padding: 1em;
 }
 .contact h3{
-  margin:20px 10px;
+  margin:15px 10px;
 }
 .social-link{
   height: 50px;
@@ -475,9 +475,7 @@ h4 a {
   .project-course, .project-date, .project-url{
     margin: .4em 0;
   }
-  .project-button {
-    text-align: center;
-  }
+
   .event{
     width: 100%;
     flex-shrink: initial;

@@ -371,7 +371,6 @@ h4 a {
     border: 5px solid green;
   } */
   .container{
-    padding: 0 1em;
   }
   .con h2{
     margin-top: 0;
@@ -541,7 +540,7 @@ h4 a {
 }
 @media screen and (max-width:320px){
   .expertiz .container{
-    width: 320px;
+    width: 95%;
     object-fit:contain;
   }
   h4{

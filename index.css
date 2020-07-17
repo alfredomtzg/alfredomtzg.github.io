@@ -86,6 +86,7 @@ body{
   display: flex;
   align-items: center;
   padding: 0 10px;
+  cursor: pointer;
 }
 
 .figure{
@@ -277,6 +278,7 @@ h4 a {
 .event-imageContainer{
   width: 100%;
   margin: 0 0;
+  object-fit: contain;
 }
 .event-image{
   object-fit: cover;
@@ -476,7 +478,7 @@ h4 a {
   }
 
   .event{
-    width: 100%;
+    width:inherit;
     flex-shrink: initial;
   }
   .event-image{
@@ -493,7 +495,7 @@ h4 a {
 }
 @media screen and (max-width:480px){
   .expertiz .container{
-    width: 480px;
+    width: 100%;
     object-fit:contain;
   }
   h4{
@@ -540,7 +542,7 @@ h4 a {
 }
 @media screen and (max-width:320px){
   .expertiz .container{
-    width: 95%;
+    width: 100%;
     object-fit:contain;
   }
   h4{
